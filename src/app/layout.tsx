@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "The Maxey Family of Clonmel",
-  description: "19th Century Fenians",
+  title: "The Mullins Family Soldiers of Clonmel",
+  description: "World War Soldiers",
 };
 
 export default function RootLayout({
