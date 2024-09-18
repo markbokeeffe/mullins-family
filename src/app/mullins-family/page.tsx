@@ -5,9 +5,9 @@ export default function Page() {
     return <>
         <ContentPage id="mullinsFamily" title="The Mullins Family">
         <Image
-            src="/gladstone_street.jpg"
-            alt="Gladstone Street"
-            caption="Johnson Street (now Gladstone Street) in Clonmel, where William Maxey had his business"
+            src="/mullinsFamily.png"
+            alt="Mullins Family"
+            caption="The Mullins Family, circa 1917"
             float="left"
             width={300}
             height={24}
