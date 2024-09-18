@@ -46,16 +46,22 @@ export const Navigation = ({ active, isHome = false }: NavigationProps ) => {
                     <a href="/">Home</a>
                   </li>
                   <li className="border-b border-gray-400 my-8 uppercase">
-                    <a href="/maxey-family">Maxey Family</a>
+                    <a href="/mullins-family">Mullins Family</a>
                   </li>
                   <li className="border-b border-gray-400 my-8 uppercase">
-                    <a href="/joseph-maxey">Joseph Maxey</a>
+                    <a href="/john-mullins">John Mullins</a>
                   </li>
                   <li className="border-b border-gray-400 my-8 uppercase">
-                    <a href="/timothy-maxey">Timothy Maxey</a>
+                    <a href="/tom-mullins">Tom Mullins</a>
                   </li>
                   <li className="border-b border-gray-400 my-8 uppercase">
-                    <a href="/robert-mapplethorpe">Robert Mapplethorpe</a>
+                    <a href="/johnny-mullins">Johnny Mullins</a>
+                  </li>
+                  <li className="border-b border-gray-400 my-8 uppercase">
+                    <a href="/bill-mullins">Bill Mullins</a>
+                  </li>
+                  <li className="border-b border-gray-400 my-8 uppercase">
+                    <a href="/jimmy-mullins">Jimmy Mullins</a>
                   </li>
                 </ul>
               </div>
@@ -66,16 +72,22 @@ export const Navigation = ({ active, isHome = false }: NavigationProps ) => {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a className={clsx({ "active" : active === "maxeyFamily"})} href="/maxey-family">Maxey Family</a>
+                <a className={clsx({ "active" : active === "mullinsFamily"})} href="/mullins-family">Mullins Family</a>
               </li>
               <li>
-                <a className={clsx({ "active" : active === "josephMaxey"})} href="/joseph-maxey">Joseph Maxey</a>
+                <a className={clsx({ "active" : active === "johnMullins"})} href="/john-mullins">John Mullins</a>
               </li>
               <li>
-                <a className={clsx({ "active" : active === "timothyMaxey"})} href="/timothy-maxey">Timothy Maxey</a>
+                <a className={clsx({ "active" : active === "tomMullins"})} href="/tom-mullins">Tom Mulllins</a>
               </li>
               <li>
-                <a className={clsx({ "active" : active === "mapplethorpe"})} href="/robert-mapplethorpe">Robert Mapplethorpe</a>
+                <a className={clsx({ "active" : active === "johnnyMullins"})} href="/johnny-mullins">Johny Mullins</a>
+              </li>
+              <li>
+                <a className={clsx({ "active" : active === "billMullins"})} href="/bill-mullins">Bill Mullins</a>
+              </li>
+              <li>
+                <a className={clsx({ "active" : active === "jimmyMullins"})} href="/jimmy-mullins">Jimmy Mullins</a>
               </li>
             </ul>}
           </nav>

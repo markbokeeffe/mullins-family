@@ -8,82 +8,117 @@ export default function Home() {
       <Header isHome={true}><Navigation isHome={true} /></Header>
       <div className="home-container w-full max-w-4xl flex justify-evenly relative z-[-1] flex place-items-center flex-col sm:flex-row pb-32" >
             <Image
-              src="/joseph_maxey.jpg"
-              alt="Joseph Maxey"
+              src="/joper.png"
+              alt="John Mullins"
               className="dark:invert border-4 border-black opacity-100 z-10 mt-10 mb-6 lg:mb-0"
               width={300}
               height={24}
               priority
             />
             <div className="flex-col text-center" style={{ color: 'darkred', fontFamily: 'fantasy'}}>
-              <h2 className="text-4xl font-extrabold">The Maxey Family</h2>
+              <h2 className="text-4xl font-extrabold">The Mullins Family Soldier</h2>
               <h2 className="text-3xl font-bold">of Clonmel</h2>
-              <p className="italic mt-4 text-2xl font-semibold" style={{ color: 'black'}}>~ 19th Century Fenians ~</p>
+              <p className="italic mt-4 text-2xl font-semibold" style={{ color: 'black'}}>~ World War Soldiers ~</p>
             </div>
       </div>
 
-      <div className="mb-32 mt-14 hidden lg:grid text-center lg:mb-0 lg:w-full lg:max-w-7xl lg:grid-cols-4 lg:text-left  border-t-2 border-black">
+      <div className="mb-32 mt-14 hidden lg:grid text-center lg:mb-0 lg:w-full lg:max-w-7xl lg:grid-cols-6 lg:text-left  border-t-2 border-black">
         <a
-          href="maxey-family"
+          href="mullins-family"
           className="group rounded-lg border border-transparent px-2 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
         >
-          <h2 className="mb-3 text-2xl font-semibold">
-            <span style={{fontFamily: 'fantasy'}}>Maxey Family{" "}</span>
+          <h2 className="mb-3 text-xl font-semibold">
+            <span style={{fontFamily: 'fantasy'}}>Mullins Family{" "}</span>
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Publicans &amp; Coopers
+            A Clonmel Family
           </p>
         </a>
 
         <a
-          href="joseph-maxey"
+          href="john-mullins"
           className="group rounded-lg border border-transparent px-2 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
         >
-          <h2 className="mb-3 text-2xl font-semibold">
-          <span style={{fontFamily: 'fantasy'}}>Joseph Maxey{" "}</span>
+          <h2 className="mb-3 text-xl font-semibold">
+          <span style={{fontFamily: 'fantasy'}}>John Mullins{" "}</span>
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Fenian Suspect
+            First World War
           </p>
         </a>
 
         <a
-          href="timothy-maxey"
+          href="tom-mullins"
           className="group rounded-lg border border-transparent px-2 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
         >
-          <h2 className="mb-3 text-2xl font-semibold">
-            <span style={{fontFamily: 'fantasy'}}>Timothy Maxey{" "}</span>
+          <h2 className="mb-3 text-xl font-semibold">
+            <span style={{fontFamily: 'fantasy'}}>Tom Mullins{" "}</span>
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Exiled Rebel
+            Home Guard
           </p>
         </a>
 
         <a
-          href="robert-mapplethorpe"
+          href="johnny-mullins"
           className="group rounded-lg border border-transparent px-2 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
         >
-          <h2 className="mb-3 text-2xl font-semibold">
-            <span style={{fontFamily: 'fantasy'}}>Robert Mapplethorpe{" "}</span>
+          <h2 className="mb-3 text-xl font-semibold">
+            <span style={{fontFamily: 'fantasy'}}>Johnny Mullins{" "}</span>
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Cultural Icon
+            Royal Armoured Corps
+          </p>
+        </a>
+
+        <a
+          href="bill-mullins"
+          className="group rounded-lg border border-transparent px-2 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          rel="noopener noreferrer"
+        >
+          <h2 className="mb-3 text-xl font-semibold">
+            <span style={{fontFamily: 'fantasy'}}>Bill Mullins{" "}</span>
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className="m-0 max-w-[30ch] text-sm opacity-50">
+            Royal Norfolk Regiment
+          </p>
+        </a>
+
+
+
+
+        <a
+          href="jimmy-mullins"
+          className="group rounded-lg border border-transparent px-2 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          rel="noopener noreferrer"
+        >
+          <h2 className="mb-3 text-xl font-semibold">
+            <span style={{fontFamily: 'fantasy'}}>Jimmy Mullins{" "}</span>
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className="m-0 max-w-[30ch] text-sm opacity-50">
+            British Overseas Army on the Rhine
           </p>
         </a>
       </div>

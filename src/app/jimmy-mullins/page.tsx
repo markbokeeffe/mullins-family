@@ -3,7 +3,7 @@ import Image from '../components/Image';
 
 export default function Page() {
     return <>
-        <ContentPage id="maxeyFamily" title="The Maxey Family">
+        <ContentPage id="jimmyMullins" title="Jimmy Mullins">
         <Image
             src="/gladstone_street.jpg"
             alt="Gladstone Street"
