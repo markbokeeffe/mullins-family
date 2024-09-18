@@ -5,7 +5,7 @@
 :root {
   --foreground-rgb: 0, 0, 0;
   /* --background-start-rgb: 214, 219, 220; */
-  --background-start-rgb: 253, 214, 160 ;
+  --background-start-rgb: 205, 184, 150 ;
   --background-end-rgb: 255, 255, 255;
 }
 
@@ -39,7 +39,7 @@ p {
 }
 
 .home-container:before{
-  background-image: url('./assets/mainguard_clonmel.jpg');
+  background-image: url('./assets/johnny_burma.png');
   background-size: cover;
   background-repeat: no-repeat;
   content: ' ';
@@ -52,7 +52,7 @@ p {
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 .subtitle {

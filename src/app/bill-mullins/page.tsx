@@ -5,14 +5,14 @@ export default function Page() {
     return <>
         <ContentPage id="billMullins" title="Bill Mullins">
         <Image
-            src="/gladstone_street.jpg"
-            alt="Gladstone Street"
-            caption="Johnson Street (now Gladstone Street) in Clonmel, where William Maxey had his business"
+            src="/billMullins.png"
+            alt="Bill Mullins"
+            caption="Bill Mullins, 1911 - 1998"
             float="left"
             width={300}
             height={24}
           /> 
-          <p><span style={{ color: 'darkred' }} className="font-bold">The Maxey Family was a well-known family that lived on what was then known as Johnson Street (now Gladstone Street) in Clonmel in the mid-nineteenth century.</span></p>
+          <p><span style={{ color: '#052003' }} className="font-bold">The Maxey Family was a well-known family that lived on what was then known as Johnson Street (now Gladstone Street) in Clonmel in the mid-nineteenth century.</span></p>
           <p>William Maxey was a publican during the 1840s and 1850s who had his premises at 11 Johnson Street and he was married to Bridget Kelly.  William was quite prominent in Clonmel and was listed as a voter for the town.  He also held the occuptation of cooper, which his sons would follow him into.</p>
           <Image
             src="/wmmaxey_business.png"

@@ -1,7 +1,7 @@
 "use client"
 
 export const Logo = () => 
-      <a href="/" style={{ color: 'darkred', fontFamily: 'fantasy' }} className="no-underline font-extrabold text-1xl leading-5 ml-4">
+      <a href="/" style={{ color: '#052003', fontFamily: 'fantasy' }} className="no-underline font-extrabold text-1xl leading-5 ml-4">
          Mullins Soldiers
       </a>;
 

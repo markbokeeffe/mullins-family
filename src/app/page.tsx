@@ -15,7 +15,7 @@ export default function Home() {
               height={24}
               priority
             />
-            <div className="flex-col text-center" style={{ color: 'darkred', fontFamily: 'fantasy'}}>
+            <div className="flex-col text-center" style={{ color: '#052003', fontFamily: 'fantasy'}}>
               <h2 className="text-4xl font-extrabold">The Mullins Family Soldier</h2>
               <h2 className="text-3xl font-bold">of Clonmel</h2>
               <p className="italic mt-4 text-2xl font-semibold" style={{ color: 'black'}}>~ World War Soldiers ~</p>
@@ -51,7 +51,7 @@ export default function Home() {
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            First World War
+            Royal Irish Regiment
           </p>
         </a>
 
