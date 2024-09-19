@@ -5,42 +5,39 @@ export default function Page() {
     return <>
         <ContentPage id="jimmyMullins" title="Jimmy Mullins">
         <Image
-            src="/jimmyMullins.png"
+            src="/jimmyArmyHat.png"
             alt="Jimmy Mullins"
             caption="Jimmy Mullins, 1913 - 2002"
             float="left"
             width={300}
             height={24}
           /> 
-          <p><span style={{ color: '#052003' }} className="font-bold">The Maxey Family was a well-known family that lived on what was then known as Johnson Street (now Gladstone Street) in Clonmel in the mid-nineteenth century.</span></p>
-          <p>William Maxey was a publican during the 1840s and 1850s who had his premises at 11 Johnson Street and he was married to Bridget Kelly.  William was quite prominent in Clonmel and was listed as a voter for the town.  He also held the occuptation of cooper, which his sons would follow him into.</p>
+          <p><span style={{ color: '#052003' }} className="font-bold">Jimmy Mullins was born in Clonmel in Co. Tipperary on 4 December 1913 to John and Johanna Mullins n&#233;e Donegan.</span></p>
           <Image
-            src="/wmmaxey_business.png"
-            alt="William Maxey business"
-            caption="William Maxey&#39;s business listed in Griffith&#39;s Valuation"
-            className="mt-4"
+            src="/jimmyKittyTriciaMullins.png"
+            alt="Jimmy Mullins with family in Glenconnor"
+            caption="Jimmy Mullins with his wife Kitty and daughter Tricia at his family home in Glenconnor in Clonmel in the 1930s"
             float="right"
             width={300}
             height={24}
           /> 
-          <p>William was born around 1799 and he married Bridget Kelly some time before 1833.  Together, they had at least five children:</p>
-          <ul>
-            <li>- William (1833 -)</li>
-            <li>- James (1835 -)</li>
-            <li>- Timothy William (1837 - 1896)</li>
-            <li>- Joseph (1843 -)</li>
-            <li>- Mary Anne (1844 - 1895)</li>
-          </ul>
-          <p>Some time between the 1850s and the mid-1860s, William Maxey fell on hard times.  When his son, Joseph, was imprisoned in 1866-67, pleas for his release were made on the basis that his family had fallen into destitution, including his father William, who was dependent upon him.</p>
+          
+          <p>At a young age, Jimmy emigrated to London, where he met and married his wife, Kitty Holles, in 1936.  After the outbreak of the Second World War in 1939, Jimmy enlisted in the army around 1941 or 1942.  He spent time in the Royal Army Service Corp and then later in the British Overseas Army on the Rhine.  He served as a lorry driver in both Belgium and the Rhineland.</p>
+ 
           <Image
-            src="/williamMaxeyPlea.png"
-            alt="William Maxey Plea"
-            caption="A plea for the release from prison of William&#39;s son Joseph, citing William&#39;s age and dependence upon him."
-            className="mt-4"
-            width={400}
+            src="/jimmyMullins.png"
+            alt="Jimmy Mullins in the army"
+            caption="Jimmy Mullins whilst in the army"
+            width={300}
             height={24}
-          />
-          <p>Whilst these pleas fell upon deaf ears, William passed away in the workhouse in Clonmel at the age of 67 from a bladder infection.  Bridget outlived Wililam.  However, it is known when she died.</p>
+          /> 
+          <p>Towards the end of the war, Jimmy's life was saved by an American soldier when he was prevented from driving over a stretch of road that had been discovered to be a minefield.</p>
+
+          <p>When Bergen Belsen was liberated in 1945, Jimmy was amongst the first Allied troops to enter the camp and witness it.</p>
+   
+          
+          <p>After the war ended, Jimmy worked for the Royal Mail.  He died in London on 30 January 2002, at the age of 88.</p>
+
         </ContentPage>
     </>;
   }

@@ -22,23 +22,7 @@ export default function Home() {
             </div>
       </div>
 
-      <div className="mb-32 mt-14 hidden lg:grid text-center lg:mb-0 lg:w-full lg:max-w-7xl lg:grid-cols-6 lg:text-left  border-t-2 border-black">
-        <a
-          href="mullins-family"
-          className="group rounded-lg border border-transparent px-2 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-xl font-semibold">
-            <span style={{fontFamily: 'fantasy'}}>Mullins Family{" "}</span>
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            A Clonmel Family
-          </p>
-        </a>
-
+      <div className="mb-32 mt-14 hidden lg:grid text-center lg:mb-0 lg:w-full lg:max-w-7xl lg:grid-cols-5 lg:text-left  border-t-2 border-black">
         <a
           href="john-mullins"
           className="group rounded-lg border border-transparent px-2 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"

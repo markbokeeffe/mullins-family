@@ -46,9 +46,6 @@ export const Navigation = ({ active, isHome = false }: NavigationProps ) => {
                     <a href="/">Home</a>
                   </li>
                   <li className="border-b border-gray-400 my-8 uppercase">
-                    <a href="/mullins-family">Mullins Family</a>
-                  </li>
-                  <li className="border-b border-gray-400 my-8 uppercase">
                     <a href="/john-mullins">John Mullins</a>
                   </li>
                   <li className="border-b border-gray-400 my-8 uppercase">
@@ -70,9 +67,6 @@ export const Navigation = ({ active, isHome = false }: NavigationProps ) => {
             {!isHome && <ul className="DESKTOP-MENU hidden space-x-8 lg:flex font-medium">
               <li>
                 <a href="/">Home</a>
-              </li>
-              <li>
-                <a className={clsx({ "active" : active === "mullinsFamily"})} href="/mullins-family">Mullins Family</a>
               </li>
               <li>
                 <a className={clsx({ "active" : active === "johnMullins"})} href="/john-mullins">John Mullins</a>
