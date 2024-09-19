@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center lg:justify-between p-0">
       <Header isHome={true}><Navigation isHome={true} /></Header>
-      <div className="home-container w-full max-w-4xl flex justify-evenly relative z-[-1] flex place-items-center flex-col sm:flex-row pb-32" >
+      <div className="home-container w-full max-w-4xl flex justify-evenly relative z-[-1] flex place-items-center flex-col sm:flex-row pb-32 lg:pb-12" >
             <Image
               src="/joper.png"
               alt="John Mullins"
@@ -15,10 +15,10 @@ export default function Home() {
               height={24}
               priority
             />
-            <div className="flex-col text-center" style={{ color: '#052003', fontFamily: 'fantasy'}}>
-              <h2 className="text-4xl font-extrabold">The Mullins Family Soldiers</h2>
+            <div className="flex-col text-center max-w-xs" style={{ color: '#052003', fontFamily: 'fantasy'}}>
+              <h2 style={{ lineHeight: '60px'}} className="text-5xl font-extrabold">The Mullins Soldiers</h2>
               <h2 className="text-3xl font-bold">of Clonmel</h2>
-              <p className="italic mt-4 text-2xl font-semibold" style={{ color: 'black'}}>~ World War Soldiers ~</p>
+              <p className="italic mt-4 text-2xl font-semibold" style={{ color: 'black'}}>~ A World War Family ~</p>
             </div>
       </div>
 
