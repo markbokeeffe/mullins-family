@@ -37,7 +37,7 @@ export default function Page() {
             alt="John Mullins Army book"
             caption="John Mullins' military details from his army log book"
             className="mt-4"
-            width={400}
+            width={380}
             height={24}
           />
           <span className="subtitle">The Great War</span>
@@ -49,7 +49,7 @@ export default function Page() {
             alt="John Mullins Army book"
             caption="Entries from John Mullins' log book"
             className="mt-4"
-            width={400}
+            width={380}
             height={24}
             float="right"
           />
@@ -62,7 +62,7 @@ export default function Page() {
             alt="John and Johanna Mullins"
             caption="John and Johanna Mullins"
             className="mt-4"
-            width={400}
+            width={380}
             height={24}
           />
 
