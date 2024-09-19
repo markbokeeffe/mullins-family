@@ -31,7 +31,7 @@ export default function Page() {
             width={300}
             height={24}
           /> 
-          <p>Towards the end of the war, Jimmy's life was saved by an American soldier when he was prevented from driving over a stretch of road that had been discovered to be a minefield.</p>
+          <p>Towards the end of the war, Jimmy&#39;s life was saved by an American soldier when he was prevented from driving over a stretch of road that had been discovered to be a minefield.</p>
 
           <p>When Bergen Belsen was liberated in 1945, Jimmy was amongst the first Allied troops to enter the camp and witness it.</p>
    
