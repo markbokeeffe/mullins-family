@@ -13,7 +13,7 @@ export default function Page() {
             height={24}
           /> 
           <p><span style={{ color: '#052003' }} className="font-bold">John Mullins was born in Old Bridge in Clonmel in Co. Tipperary on 1 May 1878 to John Mullins (a weaver from Carrick-on-Suir in Co. Tipperary) and Anne Connolly (from New Birmingham in Co. Tipperary).</span></p>
-          <p>John was one of the youngest of a large family..  Most of his siblings emigrated to the United States.  He went to America at the age of 15 in 1893 but returned to Clonmel some time before 1906 and worked as a labourer.</p>
+          <p>John was one of the youngest of a large family.  Most of his siblings emigrated to the United States.  He went to America at the age of 15 in 1893 but returned to Clonmel some time before 1906 and worked as a labourer.</p>
           <p>In 1906, John married Johanna Donegan, who was also from Clonmel.  They lived in 29 Roaring Spring Road in the Old Bridge area of the town.  In 1906 - the same year that they married - their first son, John, was born.  However, he died at the age of 2 months in September 1906.</p>
           <Image
             src="/mullinsFamily1880s.png"
