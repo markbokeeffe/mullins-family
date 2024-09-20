@@ -13,12 +13,12 @@ export default function Page() {
             height={24}
           /> 
           <p><span style={{ color: '#052003' }} className="font-bold">Tom Mullins was born in Clonmel in Co. Tipperary on 30 June 1907 to John and Johanna Mullins n&#233;e Donegan.</span></p>
-          <p>Tom was the eldest surviving child in his family and at a young age, he emigrated to London, where he married Anne Pattison in 1938.  They lived in Kensington and Tom worked as a printer&#39s labourer.</p>
+          <p>Tom was the eldest surviving child in his family and at a young age, he emigrated to London, where he married Anne Pattison in 1938.  They lived in Kensington and Tom worked as a printer&#39;s labourer.</p>
           <p>After the outbreak of the war, Tom joined the Home Guard.</p>
           <Image
             src="/tomMullinsHomeGuard.png"
-            alt="Tom Mullins&#39 Home Guard record"
-            caption="Tom Mullins&#39 Home Guard record"
+            alt="Tom Mullins&#39; Home Guard record"
+            caption="Tom Mullins&#39; Home Guard record"
             className="mt-4"
             width={300}
             height={24}

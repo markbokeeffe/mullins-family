@@ -32,7 +32,7 @@ export default function Page() {
           /> 
           
           <p>During the war years, Bill spent time initially in France.  He was present during the evacuation of Dunkirk in 1940.  Later, he was stationed in Burma and in India.</p>  
-          <p>In the spring and summer of 1944, his battalion took part in one of the most fierce battles of the entire war: the Battle of Kohima.  In this battle, the Allies forced Japan to abandon much of what it had captured in India.  This was a turning point for the Allie and it changed the course of the war in the Pacific.</p>
+          <p>In the spring and summer of 1944, his battalion took part in one of the most fierce battles of the entire war: the Battle of Kohima.  In this battle, the Allies forced Japan to abandon much of what it had captured in India.  This was a turning point for the Allies and it changed the course of the war in the Pacific.</p>
 
           <p>Following the end of the war, Bill remained as a soldier.  He took part in boxing competitions in the army and won a number of prizes.</p>
           <Image
