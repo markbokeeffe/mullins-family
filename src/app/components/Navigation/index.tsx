@@ -75,7 +75,7 @@ export const Navigation = ({ active, isHome = false }: NavigationProps ) => {
                 <a className={clsx({ "active" : active === "tomMullins"})} href="/tom-mullins">Tom Mulllins</a>
               </li>
               <li>
-                <a className={clsx({ "active" : active === "johnnyMullins"})} href="/johnny-mullins">Johny Mullins</a>
+                <a className={clsx({ "active" : active === "johnnyMullins"})} href="/johnny-mullins">Johnny Mullins</a>
               </li>
               <li>
                 <a className={clsx({ "active" : active === "billMullins"})} href="/bill-mullins">Bill Mullins</a>
