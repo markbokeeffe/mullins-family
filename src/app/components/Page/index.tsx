@@ -16,7 +16,7 @@ export const Page = ({ id = '', title, children}: PropsWithChildren<PageProps> )
                     {children}
                 </div>
             </main>
-            <footer className="flex justify-center py-4 text-xs decoration-gray-700">The Mullins Family Soldiers of Clonmel: World War Soldiers</footer>
+            <footer className="flex justify-center py-4 text-xs decoration-gray-700"><span>The Mullins Family Soldiers of Clonmel: World War Soldiers</span><span className="mx-4">|</span><a className="hover:underline" href="mailto:mark.okeeffe@gmail.com"> Contact Us</a></footer>
         </>
     );
 }

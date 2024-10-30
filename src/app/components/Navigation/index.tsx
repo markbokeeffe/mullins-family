@@ -60,28 +60,34 @@ export const Navigation = ({ active, isHome = false }: NavigationProps ) => {
                   <li className="border-b border-gray-400 my-8 uppercase">
                     <a href="/jimmy-mullins">Jimmy Mullins</a>
                   </li>
+                  <li className="border-b border-gray-400 my-8 uppercase">
+                    <a href="mailto:mark.okeeffe@gmail.com">Contact</a>
+                  </li>
                 </ul>
               </div>
             </section>
     
             {!isHome && <ul className="DESKTOP-MENU hidden space-x-8 lg:flex font-medium">
               <li>
-                <a href="/">Home</a>
+                <a href="/" className="hover:underline">Home</a>
               </li>
               <li>
-                <a className={clsx({ "active" : active === "johnMullins"})} href="/john-mullins">John Mullins</a>
+                <a className={clsx({ "active" : active === "johnMullins"}, "hover:underline")} href="/john-mullins">John Mullins</a>
               </li>
               <li>
-                <a className={clsx({ "active" : active === "tomMullins"})} href="/tom-mullins">Tom Mulllins</a>
+                <a className={clsx({ "active" : active === "tomMullins"}, "hover:underline")} href="/tom-mullins">Tom Mulllins</a>
               </li>
               <li>
-                <a className={clsx({ "active" : active === "johnnyMullins"})} href="/johnny-mullins">Johnny Mullins</a>
+                <a className={clsx({ "active" : active === "johnnyMullins"}, "hover:underline")} href="/johnny-mullins">Johnny Mullins</a>
               </li>
               <li>
-                <a className={clsx({ "active" : active === "billMullins"})} href="/bill-mullins">Bill Mullins</a>
+                <a className={clsx({ "active" : active === "billMullins"}, "hover:underline")} href="/bill-mullins">Bill Mullins</a>
               </li>
               <li>
-                <a className={clsx({ "active" : active === "jimmyMullins"})} href="/jimmy-mullins">Jimmy Mullins</a>
+                <a className={clsx({ "active" : active === "jimmyMullins"}, "hover:underline")} href="/jimmy-mullins">Jimmy Mullins</a>
+              </li>
+              <li>
+                <a href="mailto:mark.okeeffe@gmail.com" className="hover:underline">Contact</a>
               </li>
             </ul>}
           </nav>
